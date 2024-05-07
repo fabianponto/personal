@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Portofolio Fabian Ponto</title>
+<!--
+
+Template 2096 Individual
+
+https://www.tooplate.com/view/2096-individual
+
+-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="font-awesome-4.5.0/css/font-awesome.min.css">                <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" href="css/tooplate-style.css"><!-- tooplate style -->
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+      </head>
+
+      <body>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img\fabianponto.png">
+          <section class="container tm-page-1-content">
+            <div class="row">
+              <div class="col-md-6 ml-auto tm-text-white">
+                <header><h1>Fabian Aldo Valentino Ponto</h1></header>
+                <p> Saya Adalah Seorang Mahasiswa Politeknik Negeri Manado.</p>
+                
+                  <a href="#tm-section-2" class="btn btn-danger">Selanjutnya...</a>
+              </div>
+            </div>
+
+          </section>
+        </div>
+
+
+        <div id="tm-section-2" class="parallax-window" data-parallax="scroll" data-image-src="img\pantai.jpg">
+          <section class="container tm-page-1-content tm-page-2">
+            <div class="row">
+
+              <article class="col-md-6 tm-article tm-bg-white-transparent">
+                <header><h2>Tentang saya</h2></header>
+                <b>Saya berasal dari kota Bitung aya berumur 23 tahun saya saat ini berkuliah di kampus Politeknik Negeri Manado dan mengambil jurusan Teknik Elektro progtam studi Teknik Informatika.</b>
+                
+                  <a href="#tm-section-3" class="btn btn-danger ml-auto mr-0 tm-btn-block">Selanjutnya...</a>
+              </article>
+            </div>
+          </section>
+        </div>
+        <div id="tm-section-3" class="parallax-window" data-parallax="scroll" data-image-src="img\fabianponto1.jpg">
+          <section class="container tm-page-1-content">
+            <div class="row1">
+              <div class="col-xl-6 col-md-8 ml-auto">
+                <article class="tm-bg-white-transparent-page3">
+                  <header><h5 class="tm-bg-white">Latar Belakang Saya</h5></header>
+                  <p class="tm-bg-white2">Saya lahir di kota Jakarta pada tahun 2001, kemudian orang tua saya pindah ke kota Bitung pada beberapa bulan setelah kelahiran saya.
+                    Saya kemudian masuk taman kanak-kanak pada tahun 2005 dan di tahun berikutnya saya mulai masuk ke sekolah dasar dan lulus pada tahun 2012 dan kemudian saya melanjutkan ke sekolah menengah pertama dan lulus pada tahun 2015 dan masuk ke sekolah menengah atas dan lulus pada tahun 2018
+                    kemudian setelah saya lulus saya memberanikan diri untuk berangkat ke kota Jakarta untuk bekerja di sana. Setelah bebrapa bulan bekerja disana saya kembali ke kota asal saya di kota Bitung, dan saya mencoba untuk mendaftar TNI Angkatan Laut dan setelah beberapa kali mencoba tetapi belum rejeki saya, kemudian saya
+                    masuk ke perguruan tinggi yang ada di kota Manado yaitu di Perguruan tinggi Negeri Manado pada tahun 2023 hingga sekarang.   
+                  </p>
+                    <a href="#tm-section-4" class="btn btn-danger tm-btn-right">Selanjutnya...</a>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div id="tm-section-4" class="parallax-window" data-parallax="scroll" data-image-src="img\pemandangan.jpg">
+
+          <div class="row tm-page-4-content">
+            <article  class="col-xs-6 col-md-4 tm-bg-white-transparent">
+              <header><h3>Kontak</h3></header>
+              <p>085656811179</p>
+            </article>
+            <article class="col-xs-6 col-md-4 tm-bg-white-transparent">
+              <header><h3>Email</h3></header>
+              <p>fabianponto01@gmail.com</p>
+            </article>
+          </div>
+        </div>
+         <!-- load JS files -->
+          <script src="js/jquery-1.11.3.min.js"></script>        <!-- jQuery (https://jquery.com/download/) -->
+          <script src="js/parallax.min.js"></script>
+     
+          <script type="text/javascript" src="slick/slick.min.js"></script> 
+          <!-- Slick Carousel -->
+
+          <!-- Magnific Popup core JS file -->
+          <script src="js/jquery.magnific-popup.min.js"></script>
+          
+
+          <script>
+
+            function setCarousel() {
+
+              var slider = $('.tm-img-slider');
+
+              if (slider.hasClass('slick-initialized')) {
+                slider.slick('destroy');
+              }
+
+              if($(window).width() > 991){
+                  // Slick carousel
+                  slider.slick({
+                    dots: true,
+                    infinite: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 1
+                  });
+                }
+                else {
+                 slider.slick({
+                  dots: true,
+                  infinite: true,
+                  slidesToShow: 2,
+                  slidesToScroll: 1
+                });
+               }
+             }
+
+             $(document).ready(function(){
+
+              setCarousel();
+              $('.tm-img-slider').magnificPopup({
+                delegate: 'a', // child items selector, by clicking on it popup will open
+                type: 'image'
+                // other options
+
+              });
+
+              $(window).resize(function() {
+                setCarousel();
+              });
+            });
+
+          </script>
+        </body>
+        </html>
